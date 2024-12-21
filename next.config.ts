@@ -4,7 +4,12 @@ import "@/configs/env/client";
 import "@/configs/env/server";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  logging: {
+    fetches: {
+      fullUrl: true,
+      hmrRefreshes: true,
+    },
+  },
 };
 
 export default nextConfig;
