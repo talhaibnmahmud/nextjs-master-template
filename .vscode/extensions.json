@@ -1,10 +1,11 @@
 {
-	"recommendations": [
-		"esbenp.prettier-vscode",
-		"wix.vscode-import-cost",
-		"vunguyentuan.vscode-postcss",
-		"dbaeumer.vscode-eslint",
-		"bradlc.vscode-tailwindcss",
-		"aaron-bond.better-comments"
-	]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "wix.vscode-import-cost",
+    "vunguyentuan.vscode-postcss",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "aaron-bond.better-comments",
+    "firefox-devtools.vscode-firefox-debug"
+  ]
 }

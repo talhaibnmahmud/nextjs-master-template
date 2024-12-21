@@ -1,6 +1,1 @@
-branch=$(git rev-parse --abbrev-ref HEAD)
-
-if [ "$branch" = "main" ] || [ "$branch" = "master" ]; then
-    echo "Direct push to $branch is not allowed!"
-    exit 1
-fi
+SKIP_ENV_VALIDATION=true pnpm exec lint-staged
