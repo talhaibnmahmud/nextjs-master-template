@@ -5,6 +5,7 @@
     "vunguyentuan.vscode-postcss",
     "dbaeumer.vscode-eslint",
     "bradlc.vscode-tailwindcss",
-    "aaron-bond.better-comments"
+    "aaron-bond.better-comments",
+    "firefox-devtools.vscode-firefox-debug"
   ]
 }
