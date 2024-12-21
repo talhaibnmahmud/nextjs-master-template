@@ -1,3 +1,4 @@
+import bundleAnalyzer from "@next/bundle-analyzer";
 import type { NextConfig } from "next";
 
 import "@/configs/env/client";
@@ -12,4 +13,9 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+const isBundleAnalyzerEnabled = process.env.ANALYZE === "true";
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: isBundleAnalyzerEnabled,
+});
+
+export default isBundleAnalyzerEnabled ? withBundleAnalyzer(nextConfig) : nextConfig;
